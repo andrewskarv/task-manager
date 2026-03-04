@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.AddTaskActivity">
+
+    <EditText
+        android:id="@+id/etShortName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Short Name" />
+
+    <EditText
+        android:id="@+id/etBriefDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Brief Description" />
+
+    <EditText
+        android:id="@+id/etDifficulty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Difficulty (0-10)" />
+
+    <TimePicker
+        android:id="@+id/tpStartTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Duration (hours)" />
+
+    <EditText
+        android:id="@+id/etLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location" />
+
+    <Button
+        android:id="@+id/btnSaveTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Task" />
+
+</LinearLayout>
