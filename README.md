@@ -35,7 +35,7 @@ Tap "Save"
 
 The task immediately appears in the list
 
-✔ Tasks are persisted locally and survive app restarts.
+**Tasks are persisted locally and survive app restarts.**
 
 ### B. Default Settings
 
