@@ -1,4 +1,4 @@
-#Daily Task Manager
+# Daily Task Manager
 
 
 Author: Ανδρέας Σκαρβέλης
