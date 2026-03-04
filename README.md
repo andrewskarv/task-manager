@@ -1,4 +1,4 @@
-📋 Daily Task Manager
+**Daily Task Manager**
 
 
 Author: Ανδρέας Σκαρβέλης
@@ -19,9 +19,9 @@ ViewModel for lifecycle-aware UI logic
 SharedPreferences for user settings persistence
 
 
-🚀 Features Overview
+Features Overview
 
-📝 A. Task Creation
+A. Task Creation
 
 Users can create new tasks that are stored locally using Room Database.
 
@@ -37,7 +37,7 @@ The task immediately appears in the list
 
 ✔ Tasks are persisted locally and survive app restarts.
 
-⚙️ B. Default Settings
+B. Default Settings
 
 The app provides a settings screen where users can define:
 
@@ -51,7 +51,7 @@ Example:
 If you set the default difficulty to 8, every new task created will automatically have difficulty level 8.
 
 
-🔄 C. Periodic Background Updates
+C. Periodic Background Updates
 
 Using WorkManager, the app automatically:
 
@@ -66,7 +66,7 @@ A task scheduled for 3:00 PM automatically becomes In Progress at 3:00 PM.
 It is deleted the following day without user interaction.
 
 
-📋 D. Task Display
+D. Task Display
 
 The main screen:
 
@@ -81,7 +81,7 @@ Shows expired tasks at the top
 Tapping a task opens its detailed view.
 
 
-✅ E. Task Actions
+E. Task Actions
 
 From the task detail screen, users can:
 
@@ -96,7 +96,7 @@ Tap "Mark as Completed" to finish the task.
 Tap "View Location" to open the address in Maps.
 
 
-📤 F. Task Export
+F. Task Export
 
 Users can export all incomplete tasks to a text file.
 
@@ -113,7 +113,7 @@ Select "Export Tasks"
 The file is created automatically in Downloads
 
 
-🔗 G. Content Provider Support
+G. Content Provider Support
 
 The application exposes its data securely via a ContentProvider.
 
@@ -123,7 +123,7 @@ Example Use Case:
 
 A home screen widget could display today’s tasks by retrieving data directly from the app.
 
-🏗 Architecture & Technologies
+Architecture & Technologies
 
 MVVM Architecture
 
@@ -138,7 +138,7 @@ SharedPreferences
 ContentProvider
 
 
-📱 Requirements
+Requirements
 
 Android Studio
 
@@ -147,7 +147,7 @@ Minimum SDK: (Add your min SDK here)
 Target SDK: (Add your target SDK here)
 
 
-📌 Summary
+Summary
 
 Daily Task Manager is a complete Android task management solution that demonstrates:
 
