@@ -1,9 +1,12 @@
 📋 Daily Task Manager
 
+
 Author: Ανδρέας Σκαρβέλης
 Student ID: It2021157
 
+
 Daily Task Manager is a fully functional Android application designed to help users efficiently manage their daily tasks. The app implements modern Android development practices and follows a clean architecture approach.
+
 
 It utilizes:
 
@@ -15,7 +18,9 @@ ViewModel for lifecycle-aware UI logic
 
 SharedPreferences for user settings persistence
 
+
 🚀 Features Overview
+
 📝 A. Task Creation
 
 Users can create new tasks that are stored locally using Room Database.
@@ -45,6 +50,7 @@ These preferences are stored using SharedPreferences.
 Example:
 If you set the default difficulty to 8, every new task created will automatically have difficulty level 8.
 
+
 🔄 C. Periodic Background Updates
 
 Using WorkManager, the app automatically:
@@ -58,6 +64,7 @@ Example:
 A task scheduled for 3:00 PM automatically becomes In Progress at 3:00 PM.
 
 It is deleted the following day without user interaction.
+
 
 📋 D. Task Display
 
@@ -73,6 +80,7 @@ Shows expired tasks at the top
 
 Tapping a task opens its detailed view.
 
+
 ✅ E. Task Actions
 
 From the task detail screen, users can:
@@ -86,6 +94,7 @@ Example:
 Tap "Mark as Completed" to finish the task.
 
 Tap "View Location" to open the address in Maps.
+
 
 📤 F. Task Export
 
@@ -102,6 +111,7 @@ Open the menu
 Select "Export Tasks"
 
 The file is created automatically in Downloads
+
 
 🔗 G. Content Provider Support
 
@@ -127,6 +137,7 @@ SharedPreferences
 
 ContentProvider
 
+
 📱 Requirements
 
 Android Studio
@@ -134,6 +145,7 @@ Android Studio
 Minimum SDK: (Add your min SDK here)
 
 Target SDK: (Add your target SDK here)
+
 
 📌 Summary
 
